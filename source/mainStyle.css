@@ -80,7 +80,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    background-position-y: -170px;
 }
 
 #sum {
@@ -106,10 +105,9 @@ body {
 
 #home {
     height: 100%;
-    background-image: url('http://imagizer.imageshack.us/a/img912/6391/QG2QGo.jpg');
+    background-image: url('mediopelo.jpeg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -100px;
 }
 
 #servicios {
