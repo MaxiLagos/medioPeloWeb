@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Medio Pelo Discos</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="slider">
+        <div class="slide active-slide" id="homeSlider">
+                <div class="jumbotron" id="home">
+
+                </div>
+            </div>
+
+        <div class="slide" id="contactoSlider">
+
+            <div class="jumbotron" id="contacto">
+                <form action="mailService.php" method="post">
+                    <div class="contenido">
+                        <input type="text" class="emailField fields" rows="1" placeholder="Email" name="email">
+                        <input type="text" class="telefonoField fields" rows="1" placeholder="Telefono" name="telefono">
+                        <textarea class="comentarioField fields" rows="6" placeholder="Comentario" name="mensaje"></textarea>
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="slide" id="serviciosSlider">
+            <div class="jumbotron" id="servicios">
+                <div class="container">
+                    <div class="contenidoServicios">
+
+
+                            <div class="serviciosDescripcion">
+                                <p>
+Ademas el hotel ofrece los siguientes servicios:<br/>
+<br/>
+- Piscina<br/>
+- Bar las 24 hs<br/>
+- Quincho con parrilla<br/>
+- Gym<br/>
+- Box privado de internet<br/>
+                                </p>
+                            </div>
+
+                            <div class="serviciosImagenes">
+                                <img class="servicio-active-image servicio-image" id="barImagen" src="http://imagizer.imageshack.us/a/img537/1292/mVpwKT.jpg">
+                                <img class="servicio-image" id="piletaImagen" src="http://imagizer.imageshack.us/a/img538/1959/Z1atXZ.jpg">
+                                <img class="servicio-image" id="quinchoImagen" src="http://imagizer.imageshack.us/a/img908/3221/O30XtW.jpg">
+                                <img class="servicio-image" id="quincho2Imagen" src="http://imagizer.imageshack.us/a/img540/8103/TRUJcD.jpg">
+                                <img class="servicio-image" id="gymImagen" src="http://imagizer.imageshack.us/a/img538/9018/Thpbkh.jpg">
+                            </div>
+
+                            <div class="slider-nav">
+                                <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+
+                                <ul class="slider-dots">
+                                    <li class="dot active-dot">&bull;</li>
+                                    <li class="dot">&bull;</li>
+                                    <li class="dot">&bull;</li>
+                                    <li class="dot">&bull;</li>
+                                    <li class="dot">&bull;</li>
+                                </ul>
+
+                                <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="ubicacionSlider">
+            <div class="jumbotron" id="ubicacion">
+                <div class="container">
+
+                    <iframe id="ubicacionMapa" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Hotel%20Col%C3%B3n%20-%20Col%C3%B3n%2C%20Jun%C3%ADn%2C%20Buenos%20Aires%2C%20Argentina&key=AIzaSyANDvMLlwfAKmXZdgWwWegwVpddRwCl7B8&zoom=15&center=-34.587637,-60.953084"></iframe>
+
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="nav">
+    <div class="container">
+        <div class="row">
+            <h1>M&nbsp;E&nbsp;D&nbsp;I&nbsp;O&nbsp;&nbsp;&nbsp;P&nbsp;E&nbsp;L&nbsp;O&nbsp;&nbsp;&nbsp;D&nbsp;I&nbsp;S&nbsp;C&nbsp;O&nbsp;S</h1>
+        </div>
+        <div class="row" id="menu">
+            <ul class="pull-left">
+                <li><a id="homeLink" href="#">Home</a></li>
+                <li><a href="#">|</a></li>
+                <li><a id="habitacionesLink" href="#">Sessions</a></li>
+                <li><a href="#">|</a></li>
+                <li><a id="sumLink" href="#">Eventos</a></li>
+                <li><a href="#">|</a></li>
+                <li><a id="serviciosLink" href="#">Servicios</a></li>
+            </ul>
+
+            <ul class="pull-right">
+                <li>|</li>
+                <li><a id="ubicacionLink" href="#">Ubicacion</a></li>
+                <li><a href="#">|</a></li>
+                <li><a id="contactoLink" href="#">Contactenos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">MEDIO PELO DISCOS | San Martin 284, A. Roca | Buenos Aires, Argentina |||| Teléfonos: (0236) 4604620  - info@mediopelodiscos.com
+
+</div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="mainApp.js"></script>
+    <script language="JavaScript" src="mailService.php"></script>
+
+
+</body>
+</html>
+
+
