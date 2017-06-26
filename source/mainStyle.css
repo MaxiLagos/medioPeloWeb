@@ -313,8 +313,8 @@ body {
 }
 
 .serviciosDescripcion {
-    width: 30%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
     padding: 20px 0px 0px 0px;
 }
 
