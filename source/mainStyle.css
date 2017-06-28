@@ -75,14 +75,14 @@ body {
 
 /*Pages*/
 
-#habitaciones {
+#bandas {
     background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
-#sum {
+#events {
     background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@ body {
     background-size: 100%;
 }
 
-#servicios {
+#radio {
     height: 100%;
     background-image: url('mediopelo-background.jpg');
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ body {
     left: 740px;
 }
 
-.contenidoHabitaciones {
+.contenidoBandas {
     width: 950px;
     height: 380px;
     background-color: #bbbcbc;
@@ -258,7 +258,7 @@ body {
     margin: auto;
 }
 
-.contenidoServicios {
+.contenidoRadio {
     width: 950px;
     height: 380px;
     background-color: #bbbcbc;
@@ -291,39 +291,39 @@ body {
     overflow: visible;
 }
 
-.habitacionesImagenes {
+.bandasImagenes {
     width: 60%;
     height: 95%;
     opacity: 1;
 }
 
-.serviciosImagenes {
+.radioImagenes {
     width: 60%;
     height: 95%;
     opacity: 1;
 }
 
-.contenidoHabitaciones div {
+.contenidoBandas div {
     display: inline;
     top: 0;
     left: 0;
     float: left;
 }
 
-.contenidoServicios div {
+.contenidoRadio div {
     display: inline;
     top: 0;
     left: 0;
     float: left;
 }
 
-.habitacionesMenu {
+.bandasMenu {
     width: 17%;
     height: 100%;
     padding: 0px;
 }
 
-.serviciosDescripcion {
+.radioDescripcion {
     width: inherit;
     height: inherit;
     padding: 20px 0px 0px 0px;
@@ -335,14 +335,14 @@ body {
     padding: 20px 0px 0px 0px;
 }
 
-.habitacionesDescripcion p {
+.bandasDescripcion p {
     font-size: 12px;
     padding: 0;
     margin: 0px 0px 0px 20px;
     border: 0;
 }
 
-.serviciosDescripcion p {
+.radioDescripcion p {
     font-size: 12px;
     background-color: transparent;
     padding: 0;
@@ -350,7 +350,7 @@ body {
     border: 0;
 }
 
-.habitacionesMenu ul {
+.bandasMenu ul {
     padding: 20px 0px 0px 0px;
     height: inherit;
     width: 100%;
@@ -358,7 +358,7 @@ body {
     border: none;
 }
 
-.contenidoHabitaciones li {
+.contenidoBandas li {
     display: block;
     height: 15%;
     padding: 10px 10px 0px 0px;
@@ -393,7 +393,7 @@ body {
     border-top: solid 1px #381616;
 }
 
-.contenidoHabitaciones a {
+.contenidoBandas a {
     text-transform: uppercase;
     font-size: 14px;
     font-family: "Calibri", sans-serif;
@@ -425,7 +425,7 @@ body {
     display: inline-block;
 }
 
-.habitacionesDescripcion {
+.bandasDescripcion {
     padding-top: 20px;
     width: 22%;
     background-size: auto;

@@ -10,17 +10,17 @@ var main = function() {
         newSlide.fadeIn(600).addClass("active-slide");
     });
 
-    $('#habitacionesLink').click(function () {
+    $('#bandasLink').click(function () {
         var currentSlide = $('.active-slide');
-        var newSlide = $('#habitacionesSlider');
+        var newSlide = $('#bandasSlider');
 
         currentSlide.fadeOut(600).removeClass("active-slide");
         newSlide.fadeIn(600).addClass("active-slide");
     });
 
-    $('#sumLink').click(function () {
+    $('#eventsLink').click(function () {
         var currentSlide = $('.active-slide');
-        var newSlide = $('#sumSlider');
+        var newSlide = $('#eventsSlider');
 
         currentSlide.fadeOut(600).removeClass("active-slide");
         newSlide.fadeIn(600).addClass("active-slide");
@@ -42,17 +42,9 @@ var main = function() {
         newSlide.fadeIn(600).addClass("active-slide");
     });
 
-    $('#clientesLink').click(function () {
+    $('#radioLink').click(function () {
         var currentSlide = $('.active-slide');
-        var newSlide = $('#clientesSlider');
-
-        currentSlide.fadeOut(600).removeClass("active-slide");
-        newSlide.fadeIn(600).addClass("active-slide");
-    });
-
-    $('#serviciosLink').click(function () {
-        var currentSlide = $('.active-slide');
-        var newSlide = $('#serviciosSlider');
+        var newSlide = $('#radioSlider');
 
         currentSlide.fadeOut(600).removeClass("active-slide");
         newSlide.fadeIn(600).addClass("active-slide");
