@@ -16,12 +16,6 @@ var main = function() {
 
         currentSlide.fadeOut(600).removeClass("active-slide");
         newSlide.fadeIn(600).addClass("active-slide");
-
-        var currentImage = $('.active-image');
-        var nextImage = $('#habitacionStandardImagen');
-
-        currentImage.slideDown(300).fadeOut(100).removeClass('active-image');
-        nextImage.slideUp( 300 ).delay( 100 ).fadeIn( 400 ).addClass('active-image');
     });
 
     $('#sumLink').click(function () {
@@ -30,12 +24,6 @@ var main = function() {
 
         currentSlide.fadeOut(600).removeClass("active-slide");
         newSlide.fadeIn(600).addClass("active-slide");
-
-        var currentImage = $('.active-image');
-        var nextImage = $('#autorioSantaMariaImagen');
-
-        currentImage.slideDown(300).fadeOut(100).removeClass('active-image');
-        nextImage.slideUp( 300 ).delay( 100 ).fadeIn( 400 ).addClass('active-image');
     });
 
     $('#ubicacionLink').click(function () {

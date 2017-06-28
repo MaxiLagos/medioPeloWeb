@@ -76,28 +76,28 @@ body {
 /*Pages*/
 
 #habitaciones {
-    background-image:url('mediopelo.jpeg');
+    background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
 #sum {
-    background-image:url('mediopelo.jpeg');
+    background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
 #ubicacion {
-    background-image:url('mediopelo.jpeg');
+    background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
 #contacto {
-    background-image:url('mediopelo.jpeg');
+    background-image:url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -105,14 +105,14 @@ body {
 
 #home {
     height: 100%;
-    background-image: url('mediopelo.jpeg');
+    background-image: url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 #servicios {
     height: 100%;
-    background-image: url('mediopelo.jpeg');
+    background-image: url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: -100px;
@@ -120,7 +120,7 @@ body {
 
 #clientes {
     height: 100%;
-    background-image: url('mediopelo.jpeg');
+    background-image: url('mediopelo-background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: -100px;
@@ -224,6 +224,17 @@ body {
     background-color: #FFFFFF;
 }
 
+#imagenPortada {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top:-150px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+
 .contenido {
     height: 400px;
     width: 380px;
@@ -313,6 +324,12 @@ body {
 }
 
 .serviciosDescripcion {
+    width: inherit;
+    height: inherit;
+    padding: 20px 0px 0px 0px;
+}
+
+.homeLogo {
     width: inherit;
     height: inherit;
     padding: 20px 0px 0px 0px;
